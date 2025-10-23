@@ -1,16 +1,4 @@
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    if b == 0:
-        raise ValueError("You can't divide by zero, idiot.")
-    return a / b
+from calculator import add, subtract, multiply, divide
 
 print("Ugh, it's you. Welcome to meh-culator I guess.")
 try:
