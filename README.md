@@ -5,6 +5,21 @@
 #### Requirements:
 * Python3
 
+### Testing:
+To ensure that your functions are working properly, navigate to the project directory and execute `pytest`
+The code should look like this if all functions are working properly:
+```
+============================================================================================== test session starts ==============================================================================================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+rootdir: /home/tuella@CSGP.EDU/Projects/the-meh-thematical-calculator-AlexT-3
+collected 9 items                                                                                                                                                                                               
+
+test_calculator.py .........                                                                                                                                                                              [100%]
+
+=============================================================================================== 9 passed in 0.01s ===============================================================================================
+```
+
+
 #### Startup and usage:
 Within the terminal, type in the command `python3 mehth.py`
 The program will first ask you to give it 2 numbers. Then, it asks for the operation you would like to calculate the numbers with. 
