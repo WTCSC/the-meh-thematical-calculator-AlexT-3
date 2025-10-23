@@ -6,7 +6,7 @@
 * Python3
 
 ### Testing:
-To ensure that your functions are working properly, navigate to the project directory and execute `pytest`
+To ensure that your functions are working properly, navigate to the project directory and execute `pytest`.
 The code should look like this if all functions are working properly:
 ```
 ============================================================================================== test session starts ==============================================================================================
